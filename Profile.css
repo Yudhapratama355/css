@@ -1,0 +1,43 @@
+*{
+  margin: 0; /*membuat jarak antar objek*/
+  padding: 0; /*membuat jarak antar isi dengan kotak*/
+  font-family: 'cambria',Sans-Serif; /*merubah jenis teks*/
+}
+html, body {height: 100%;} /*merubah tinggi body*/
+.bg {
+  background-image: url('Bg.jpg');
+  /*memasang sebuah gambar background*/
+  background-size: cover;
+  /*agar background menyesuaikan ukuran*/
+  background-repeat:no-repeat;
+ /*agar background tidak berulang*/
+}
+.photo {
+  width:150px; /*merubah lebar poto*/
+  height: 150px;/*merubah tinggi poto*/
+  border-radius: 50%;/*untuk membuat garis di sekitar objek*/
+  border: 5px solid #ffffff;/*untuk membuat garis luar*/
+}
+h1 {
+  color: white;/*untuk merubah warna objek*/
+}
+h2 {
+  color: white/*untuk merubah warna objek*/
+}
+p {
+  color: white;/*untuk merubah warna objek*/
+}
+.title {
+  color: #ffffff;/*untuk merubah warna objek*/
+  margin: 10px auto;/*membuat jarak antar objek*/
+  text-align: center;/*mengatur posisi teks*/
+}
+.centerbox {
+  width: 500px; /*merubah lebar poto*/
+  border: 1px solid #ffffff;
+  margin: 0 auto;/*membuat jarak antar objek*/
+  padding: 15px; /*membuat jarak antar isi dengan kotak*/
+  background-color: rgba(0,0,0,0.5);/*merubah warna background*/
+  color: #ffffff;/*untuk merubah warna objek*/
+  text-align: center;/*mengatur posisi teks*/
+}
